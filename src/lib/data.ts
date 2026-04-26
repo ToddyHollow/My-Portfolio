@@ -49,7 +49,7 @@ export const skills = {
 
 export const projects = [
   {
-    title: "TCC Final - Architectural Residential Duplex",
+title: "TCC Final - Architectural Residential Duplex",
     github: "",
     pdf: "/pdfs/knodeann-phase6.pdf",
     images: [
