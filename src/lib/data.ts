@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "A. Adel Knode ",
   location: "Tulsa, Oklahoma",
   email: "adel.knode@gmail.com",
-  github: "https://github.com/PaintRock/TaskCom",
+  github: "https://github.com/ToddyHollow/TaskCom",
   linkedin: "https://www.linkedin.com/in/adelknode/",
 };
 
@@ -10,7 +10,7 @@ export const workExperience = [
   {
     company: "L&J Environmental",
     location: "Oklahoma",
-    position: "Environmental Manager/Field Technician",
+    position: "Owner/Environmental Manager/Field Technician",
     period: "Dec 2018 - Present",
     achievements: [
       
@@ -49,26 +49,47 @@ export const skills = {
 
 export const projects = [
   {
-    title: "TASKCOM",
-    github: "https://github.com/PaintRock/TaskCom",
+    title: "TCC Final - 2 Story Structure",
+    github: "",
+    pdf: "/pdfs/knodeann-phase6.pdf",
+    images: [
+      {
+        src: "/images/knodeann/knodeann-page-1.jpg",
+        caption: "Page 1 - add your note here",
+      },
+      {
+        src: "/images/knodeann/knodeann-page-2.jpg",
+        caption: "Page 2 - add your note here",
+      },
+      {
+        src: "/images/knodeann/knodeann-page-3.jpg",
+        caption: "Page 3 - add your note here",
+      },
+      {
+        src: "/images/knodeann/knodeann-page-4.jpg",
+        caption: "Page 4 - add your note here",
+      },
+    ],
     description: [
-      "TaskCom was born from an urge to help strengthen team communictions for first-responders during training, and missions involving disasters, wildfires, and any movement that involoves mobilizing multiple resources and numerous personnel over a wide area.",
-      "The intent is to create one home page that gives a glimpse of every piece of information needed during an event and the interconnectivity to move quickly to the source of more detailed information.",
-      "The map feature will allow the tracking of all personnel and assets logged into the app and any equipment.",
-      "Icon dropping will enhance the responders ability to convey important information about terrain, structures, and the fire front."
+      "A simple 2-story structure modeled in Autodesk Revit as a final project for Tulsa Community College. The project includes a full 3D model alongside detail views created in Revit's drafting mode — bridging traditional AutoCAD-style drafting with modern BIM workflows.",
     ],
   },
-  // {
-  //   title: "Mental Aarog",
-  //   github: "https://github.com/rishikesh2003/mental-aarog",
-  //   description: [
-  //     "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-  //     "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-  //     "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-  //     "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-  //     "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
-  //   ],
-  // },
+  {
+    title: "Project 2 - Coming Soon",
+    github: "",
+    pdf: "",
+    description: [
+      "Placeholder for next Revit project.",
+    ],
+  },
+  {
+    title: "Project 3 - Coming Soon",
+    github: "",
+    pdf: "",
+    description: [
+      "Placeholder for next Revit project.",
+    ],
+  },
 ];
 
 export const awards = [

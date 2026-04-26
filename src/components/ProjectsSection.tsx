@@ -28,7 +28,9 @@ export default function ProjectsSection() {
               <GlassCard className="group overflow-hidden dark:border-purple-500/10 h-full flex flex-col">
                 <CardHeader className="bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <CardTitle className="text-center md:text-left group-hover:text-purple-500 transition-colors duration-300">
-                    {project.title}
+                    <a href={`/projects/${project.title.toLowerCase().replace(/\s+/g, "-")}`}>
+                      {project.title}
+                    </a>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
