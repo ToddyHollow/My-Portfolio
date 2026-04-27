@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Revit/CAD Drafter 👨‍💻
             </motion.p>
 
             <motion.div
