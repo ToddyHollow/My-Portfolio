@@ -69,6 +69,10 @@ title: "TCC Final - Architectural Residential Duplex",
         src: "/images/knodeann/knodeann-page-4.jpg",
         caption: "Page 4 - add your note here",
       },
+      {
+        src: "/images/knodeann/knodeann-page-5.jpg",
+        caption: "Page 5 - add your note here",
+      },
     ],
     description: [
       "A simple 2-story structure modeled in Autodesk Revit as a final project for Tulsa Community College. The project includes a full 3D model alongside detail views created in Revit's drafting mode — bridging traditional AutoCAD-style drafting with modern BIM workflows.",
