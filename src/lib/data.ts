@@ -15,7 +15,7 @@ export const workExperience = [
     location: "Oklahoma",
     position: "Owner/Environmental Manager/Field Technician",
     period: "Dec 2018 - Present",
-    achievements: ["Started as a driver at an environmental lab — left four years later knowing how to build and operate a DEQ-certified field laboratory. Zero formal training, just curiosity and commitment. This is pattern that has defined my career."
+    achievements: ["I started as a driver at an environmental lab — I left four years later knowing how to build and operate a DEQ-certified field laboratory. Zero formal training on that topic, just curiosity and commitment. This is pattern that has defined my career."
     ],
   },
   
