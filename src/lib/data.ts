@@ -1,9 +1,12 @@
+import { source } from "framer-motion/client";
+import { Ambulance } from "lucide-react";
+
 export const personalInfo = {
   name: "A. Adel Knode ",
   location: "Tulsa, Oklahoma",
   email: "adel.knode@gmail.com",
   github: "https://github.com/ToddyHollow/TaskCom",
-  linkedin: "https://www.linkedin.com/in/adelknode/",
+  //linkedin: "https://www.linkedin.com/in/adelknode/",//
 };
 
 export const workExperience = [
@@ -12,8 +15,7 @@ export const workExperience = [
     location: "Oklahoma",
     position: "Owner/Environmental Manager/Field Technician",
     period: "Dec 2018 - Present",
-    achievements: [
-      
+    achievements: ["Started as a driver at an environmental lab — left four years later knowing how to build and operate a DEQ-certified field laboratory. Zero formal training, just curiosity and commitment. This is pattern that has defined my career."
     ],
   },
   
@@ -49,29 +51,29 @@ export const skills = {
 
 export const projects = [
   {
-title: "TCC Final - Architectural Residential Duplex",
+title: "Tulsa Community College Final Assignment - Architectural Residential Duplex",
     github: "",
     pdf: "/pdfs/knodeann-phase6.pdf",
     images: [
       {
         src: "/images/knodeann/knodeann-page-1.jpg",
-        caption: "Page 1 - add your note here",
+        caption: "Page 1 - The structure rendered. ",
       },
       {
         src: "/images/knodeann/knodeann-page-2.jpg",
-        caption: "Page 2 - add your note here",
+        caption: "Page 2 - This is the floorplan after several markups by the instructor. ",
       },
       {
         src: "/images/knodeann/knodeann-page-3.jpg",
-        caption: "Page 3 - add your note here",
+        caption: "Page 3 - Sections and elevations were for the purpose of learning how to control those views and not for gained information.",
       },
       {
         src: "/images/knodeann/knodeann-page-4.jpg",
-        caption: "Page 4 - add your note here",
+        caption: "Sections and elevations were for the purpose of learning how to control those views and not for gained information.",
       },
       {
         src: "/images/knodeann/knodeann-page-5.jpg",
-        caption: "Page 5 - add your note here",
+        caption: "This is the details page.  All of these are drawing view, and reverted back to AutoCAD style drafting.",
       },
     ],
     description: [
