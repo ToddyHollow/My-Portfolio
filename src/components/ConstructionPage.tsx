@@ -84,7 +84,7 @@ export default function ConstructionPage({ project }: { project: ConstructionPro
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full object-cover"
+                className="w-full object-contain max-h-96 rounded-xl"
               />
             </div>
           </MotionWrapper>
