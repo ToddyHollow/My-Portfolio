@@ -11,10 +11,10 @@ interface ProjectPageProps {
   description: string[];
   images?: ProjectImage[];
   pdf?: string;
+  disclaimer?: string;
 }
 
-export default function ProjectPage({ title, description, images, pdf }: ProjectPageProps) {
-  return (
+export default function ProjectPage({ title, description, images, pdf, disclaimer }: ProjectPageProps) {  return (
     <main className="min-h-screen container max-w-4xl mx-auto px-6 py-12">
       <motion.a
         href="/#projects"
@@ -44,6 +44,11 @@ export default function ProjectPage({ title, description, images, pdf }: Project
         {description.map((desc, i) => (
           <p key={i} className="text-muted-foreground mb-4">{desc}</p>
         ))}
+        {disclaimer && (
+          <p className="text-muted-foreground italic mt-4 border-l-2 border-purple-500 pl-4">
+            {disclaimer}
+          </p>
+        )}
       </motion.div>
 
       {images && images.map((image, index) => (
@@ -58,7 +63,7 @@ export default function ProjectPage({ title, description, images, pdf }: Project
           <img
             src={image.src}
             alt={image.caption}
-            className="w-full rounded-lg shadow-lg mb-4"
+            className="w-full max-h-96 object-contain rounded-lg shadow-lg mb-4"
           />
           <p className="text-muted-foreground italic">{image.caption}</p>
         </motion.div>

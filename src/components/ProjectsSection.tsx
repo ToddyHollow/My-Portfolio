@@ -17,8 +17,11 @@ export default function ProjectsSection() {
     <section id="projects" className="py-12 relative">
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
+          <p className="text-sm text-purple-500 mb-6 text-center md:text-left animate-pulse">
+            ✨ Click Any Project Title for More Information
+          </p>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🚀 Projects
+            🚀 Revit Projects
           </h2>
         </MotionWrapper>
 

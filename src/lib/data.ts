@@ -245,18 +245,30 @@ export const constructionProjects = [
   {
     title: "RiverSpirit Casino — Phase I",
     slug: "riverspirit-casino",
+    summary: "Created 3D shop drawings for the mechanical room of RiverSpirit Casino — full piping and equipment model developed from engineer-provided 2D drawings.",
     type: "Gaming & Entertainment",
     role: "3D Mechanical Room Designer",
     value: "",
     location: "Muscogee (Creek) Nation, Tulsa, OK",
     period: "",
-image: "/images/construction/riverspirit.png",    
+images: [
+  {
+    src: "/images/construction/riverspirit-construction.webp",
+    caption: "RiverSpirit Casino Phase I under construction, December 2007. Photo: Tulsa World Archive.",
+  },
+  {
+    src: "/images/construction/riverspirit.png",
+    caption: "Add your caption here.",
+  },
+],
 description: [
       "Approximately 300,000 sq ft gaming and entertainment facility.",
       "Converted engineer-provided 2D mechanical room drawings into a full 3D model using AutoCAD 3D and Pipe Designer 3D.",
       "Modeled large-diameter piping systems including flanged assemblies, valves, chillers, and cooling tower connections.",
       "Self-taught AutoCAD 3D by leveraging existing knowledge of SolidWorks and Pro-E — identified equivalent commands through independent research.",
+      
     ],
+    disclaimer: "Project files are not reproduced here out of respect for the client's proprietary systems and facility security. Available for discussion in an interview setting.",
   },
   {
     title: "Tulsa Teachers Credit Union",
