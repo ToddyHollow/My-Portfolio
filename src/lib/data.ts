@@ -299,7 +299,7 @@ images: [
   },
   {
     src: "/images/construction/riverspirit.png",
-    caption: "Add your caption here.",
+    caption: "Several phases later...",
   },
 ],
 description: [
