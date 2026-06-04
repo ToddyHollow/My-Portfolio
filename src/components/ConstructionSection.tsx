@@ -45,7 +45,7 @@ export default function ConstructionSection() {
           whileInView="visible"
           viewport={{ once: true, margin: "-50px" }}
         >
-          {constructionProjects.map((project) => (
+          {constructionProjects.filter(p => !p.hideFromConstruction).map((project) => (
             <motion.div key={project.slug} variants={cardVariants}>
               <a href={`/construction/${project.slug}`}>
                 <GlassCard className="p-5 h-full cursor-pointer hover:scale-[1.02] transition-transform duration-300">

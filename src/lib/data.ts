@@ -169,7 +169,7 @@ export const constructionProjects = [
       },
     ],
     description: [
-      "First job runnning ductwork -- ever.",
+      "First job running ductwork -- ever.",
       "Discovered that blueprints are easy to understand, and offset sheetmetal snips are not.",
       "Gained early exposure to large-scale project coordination and trade sequencing.",
       "As an Apprentice Level/ Card carrying Journeyman everyone was glad to share information -- the learning curve was steep",
@@ -179,11 +179,20 @@ export const constructionProjects = [
     title: "NSU Science Center",
     slug: "nsu-science-center",
     type: "Education",
-    role: "HVAC Field Installer",
+    role: "HVAC Field Installer -- Journeyman",
     value: "",
     location: "Northeastern State University, Tahlequah, OK",
     period: "2005–2006",
-    image: "",
+    images: [      
+      {
+        src: "/images/construction/NSU_science_building.jpg",
+        caption: "NSU Tahlequah NSU Science Center {Gregg Wadley College of Science & Health Professions -2015}",
+      },
+      {
+        src: "/images/construction/NSU_science_building.jpg",
+        caption: "NSU Tahlequah NSU Science Center {Gregg Wadley College of Science & Health Professions -2015}",
+      },
+    ],
     description: [
       "62,000 sq ft facility housing 26 laboratory spaces.",
       "Coordinated structural blockout requirements with general contractor to accommodate prefabricated stainless steel exhaust components.",
@@ -193,7 +202,7 @@ export const constructionProjects = [
     title: "Rosa Parks Elementary School",
     slug: "rosa-parks-elementary",
     type: "Education",
-    role: "HVAC Site Lead",
+    role: "HVAC Journeyman - three member crew",
     value: "",
     location: "Union Public Schools District, Tulsa, OK",
     period: "2006",
@@ -207,8 +216,9 @@ images: [
     caption: "Photo credit Dewberry Engineering",
   },
 ],    description: [
-      "I worked at multiple sites during this time. I would arrive for a few weeks be reassigned, and then come back.  Evntually it was my responsibility to work through the punch list and escort the inspectors.",
-      "I was asked to start-up the 52 rooftop units on this structure. My AAON experience was invaluable."
+      "Assigned as HVAC Site Lead across multiple Union Public Schools District sites during this period.",
+      "Because of my AAON experience I was asked to start-up the 52 York rooftop units on this structure.",
+      "Eventually it was my responsibility to work through the punch list and escort the inspectors."
       
     ],
   },
@@ -216,28 +226,41 @@ images: [
     title: "Community Food Bank of Eastern Oklahoma",
     slug: "community-food-bank",
     type: "Warehouse & Office",
-    role: "HVAC Field Installer",
+    role: "HVAC Journeyman - three member crew",
     value: "",
     location: "Tulsa, OK",
     period: "",
-    image: "",
+    images: [
+      {
+      src: "/images/construction/FoodBankEntryWay.jpg",
+      caption: ""
+    },
+    {
+      src: "/images/construction/Community-Food-Bank-of-Eastern-Oklahoma.-21OK84AOXD.-42.webp",
+      caption: "Before the current renovation" 
+
+    },
+    ],
     description: [
-      "78,000 sq ft warehouse and office facility.",
+      "I worked at multiple sites during this time. I would arrive for a few weeks be reassigned, and then come back.",
+      "78,000 sq-ft warehouse and office facility.",
       "Performed field measurement and installation of ductwork components including large double-wall insulated sections.",
       "Coordinated ductwork installation alongside active interior finish work.",
       "Applied field rigging techniques to safely position oversized duct sections within the structure.",
+      "Verified rooftop equipment.",
     ],
   },
   {
     title: "The Assembly — New Construction",
     slug: "the-assembly",
     type: "Commercial",
-    role: "HVAC Field Installer",
+    role: "HVAC Journeyman Lead - three member crew",
     value: "",
     location: "Broken Arrow, OK",
     period: "~2005–2006",
     image: "",
     description: [
+      "I worked at multiple sites during this time. I would arrive for a few weeks be reassigned, and then come back.",
       "Commercial new construction HVAC installation.",
       "Identified equipment specification discrepancies during installation and escalated through appropriate channels.",
       "Maintained compliance with applicable life safety codes throughout project duration.",
@@ -247,13 +270,13 @@ images: [
     title: "Union Pines Surgery Center — Tulsa Bone & Joint",
     slug: "union-pines-surgery-center",
     type: "Medical",
-    role: "HVAC Field Installer",
+    role: "HVAC Journeyman Lead - three member crew",
     value: "",
     location: "Tulsa, OK",
     period: "",
     image: "",
     description: [
-      "8 operating room ambulatory surgical facility requiring healthcare-specific HVAC design.",
+      "4 operating room ambulatory surgical facility requiring healthcare-specific HVAC design.",
       "Installed laminar airflow configurations in surgical suites to support sterile field requirements.",
       "Supply low / return high design utilized to control contaminant movement away from the sterile field.",
       "Gained direct exposure to medical occupancy outdoor air intake requirements and associated health and safety standards.",
@@ -262,6 +285,7 @@ images: [
   {
     title: "RiverSpirit Casino — Phase I",
     slug: "riverspirit-casino",
+    hideFromConstruction: true,
     summary: "Created 3D shop drawings for the mechanical room of RiverSpirit Casino — full piping and equipment model developed from engineer-provided 2D drawings.",
     type: "Gaming & Entertainment",
     role: "3D Mechanical Room Designer",
@@ -291,7 +315,7 @@ description: [
     title: "Tulsa Teachers Credit Union",
     slug: "tulsa-teachers-credit-union",
     type: "Commercial",
-    role: "HVAC Field Installer",
+    role: "HVAC Lead Journeyman - seven member crew",
     value: "",
     location: "Tulsa, OK",
     period: "",
