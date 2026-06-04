@@ -81,11 +81,25 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
     ],
   },
   {
-    title: "Project 2 - Coming Soon",
+    title: "Commercial Design Using Autodesk Revit 2025",
     github: "",
-    pdf: "",
+    summary: "This project works through this book by Daniel Stine and SDC Publications",
+    images: [
+     
+      {
+        src: "/images/knodeann/image-2388.jpeg",
+        caption: "",
+      },
+      {
+        src: "/images/knodeann/FirstScreenshot.png",
+        caption: "Screenshot",
+      },
+    ],
+    pdf: "/pdfs/EX8-5.pdf",
     description: [
-      "Placeholder for next Revit project.",
+      "This is through Chapter 8 of the book. The next topic teaches Design Options which will present a roof more like the one shown on the book cover.",
+      "The intent is to complete the commercial building in the book and then use it to create the MEP systems.",
+      "The PDF shows several differnt files from the project (no sheets) but cannot be displayed well in the browser. Please click the button to open a new window.",
     ],
   },
   {
