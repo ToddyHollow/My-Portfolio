@@ -49,6 +49,13 @@ export default function ConstructionSection() {
             <motion.div key={project.slug} variants={cardVariants}>
               <a href={`/construction/${project.slug}`}>
                 <GlassCard className="p-5 h-full cursor-pointer hover:scale-[1.02] transition-transform duration-300">
+                  {project.images && project.images[0] && (
+                    <img
+                      src={project.images[0].src}
+                      alt={project.title}
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                  )}
                   <div className="flex flex-col gap-2">
                     <span className="text-xs font-semibold uppercase tracking-wider text-purple-400">
                       {project.type}

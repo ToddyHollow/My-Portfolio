@@ -10,7 +10,7 @@ interface ConstructionProject {
   value?: string;
   location?: string;
   period?: string;
-  image?: string;
+  images?: { src: string; caption: string }[];
   description: string[];
 }
 
@@ -77,18 +77,18 @@ export default function ConstructionPage({ project }: { project: ConstructionPro
           </GlassCard>
         </MotionWrapper>
 
-        {/* Image */}
-        {project.image && (
-          <MotionWrapper>
+{/* Images */}
+{project.images && project.images.slice(1).map((image, index) => (          <MotionWrapper key={index}>
             <div className="mb-8 rounded-xl overflow-hidden">
               <img
-                src={project.image}
-                alt={project.title}
+                src={image.src}
+                alt={image.caption}
                 className="w-full object-contain max-h-96 rounded-xl"
               />
+              <p className="text-muted-foreground italic text-sm mt-2">{image.caption}</p>
             </div>
           </MotionWrapper>
-        )}
+        ))}
 
         {/* Description — each paragraph animates in separately */}
         <motion.div

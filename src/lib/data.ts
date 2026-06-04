@@ -158,7 +158,16 @@ export const constructionProjects = [
     value: "$47M",
     location: "OSU Stillwater, OK",
     period: "Summer 2004",
-    image: "",
+    images: [
+      {
+        src: "/images/construction/PICKENS-CONSTRUCTION.jpg",
+        caption: "Boone Pickens Stadium Phase 1 as the transformation began",
+      },
+      {
+        src: "/images/construction/BOONEPICKENS.webp",
+        caption: "Welcome to Boone Pickens Stadium — all phases complete.",
+      },
+    ],
     description: [
       "First job runnning ductwork -- ever.",
       "Discovered that blueprints are easy to understand, and offset sheetmetal snips are not.",
@@ -188,8 +197,16 @@ export const constructionProjects = [
     value: "",
     location: "Union Public Schools District, Tulsa, OK",
     period: "2006",
-    image: "",
-    description: [
+images: [
+  {
+    src: "/images/construction/rosaParksfrontdoor.jpg",
+    caption: "Rosa Parks Elementary School — Union Public Schools District, Tulsa, OK",
+  },
+  {
+    src: "/images/construction/rosaparks.jpg",
+    caption: "Photo credit Dewberry Engineering",
+  },
+],    description: [
       "I worked at multiple sites during this time. I would arrive for a few weeks be reassigned, and then come back.  Evntually it was my responsibility to work through the punch list and escort the inspectors.",
       "I was asked to start-up the 52 rooftop units on this structure. My AAON experience was invaluable."
       

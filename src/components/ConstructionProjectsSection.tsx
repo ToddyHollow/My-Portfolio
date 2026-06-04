@@ -10,9 +10,10 @@ import MotionWrapper from "./MotionWrapper";
 import { motion } from "framer-motion";
 
 export default function ConstructionProjectsSection() {
-  const riverSpirit = constructionProjects.filter(
+  const featured = constructionProjects.filter(
     (p) => p.slug === "riverspirit-casino"
   );
+  
 
   return (
     <section id="construction-projects" className="py-12 relative">
@@ -24,7 +25,7 @@ export default function ConstructionProjectsSection() {
         </MotionWrapper>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {riverSpirit.map((project, index) => (
+          {featured.map((project, index) => (
             <MotionWrapper key={project.title} delay={index * 0.2}>
               <GlassCard className="group overflow-hidden dark:border-purple-500/10 h-full flex flex-col">
                 <CardHeader className="bg-gradient-to-r from-purple-500/5 to-pink-500/5">
