@@ -94,11 +94,60 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
         src: "/images/knodeann/FirstScreenshot.png",
         caption: "Screenshot",
       },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0012.jpg",
+        caption: "The Design Option -- The atrium roof changed",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0001.jpg",
+        caption: "First floor plan view",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0002.jpg",
+        caption: "Second floor plan view",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0003.jpg",
+        caption: "Third floor plan view",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0004.jpg",
+        caption: "First floor reflected ceiling",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0005.jpg",
+        caption: "Second floor reflected ceiling",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0006.jpg",
+        caption: "Third floor reflected ceiling",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0007.jpg",
+        caption: "Exterior Elevations",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0008.jpg",
+        caption: "Wall Sections",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0009.jpg",
+        caption: "Interior Elevations",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0010.jpg",
+        caption: "Details",
+      },
+      {
+        src: "/images/knodeann/CommercialDesign_page-0011.jpg",
+        caption: "Schedules",
+      },
     ],
-    pdf: "/pdfs/EX8-5.pdf",
+    pdf: "/pdfs/READYFORJPEG.pdf",
     description: [
-      "This is through Chapter 8 of the book. The next topic teaches Design Options which will present a roof more like the one shown on the book cover.",
-      "The intent is to complete the commercial building in the book and then use it to create the MEP systems.",
+      "This set is to demonstrate that I can create in Revit.",
+      "This sheet set is roughly 90% of what the book covered. I did not do the fun rendering chapter and I am going to need more ceilings for my systems -- maybe --",
+      "The intent is to complete this commercial building from the book and then use it to create the MEP systems.",
       "The PDF shows several differnt files from the project (no sheets) but cannot be displayed well in the browser. Please click the button to open a new window.",
     ],
   },
@@ -107,7 +156,7 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
     github: "",
     pdf: "",
     description: [
-      "Placeholder for next Revit project.",
+      "This will be the Commecial Design project with the mechanica system sized and drawn.",
     ],
   },
 ];
@@ -166,6 +215,7 @@ export const awards = [
 export const constructionProjects = [
   {
     title: "Boone Pickens Stadium — Phase I",
+    type: "New Construction",
     slug: "boone-pickens-stadium",
     type: "Athletic Facility",
     role: "HVAC Field Installer -- Journeyman",
@@ -179,14 +229,14 @@ export const constructionProjects = [
       },
       {
         src: "/images/construction/BOONEPICKENS.webp",
-        caption: "Welcome to Boone Pickens Stadium — all phases complete.",
+        caption: "Welcome to Boone Pickens Stadium — all phases completed.",
       },
     ],
     description: [
       "First job running ductwork -- ever.",
       "Discovered that blueprints are easy to understand, and offset sheetmetal snips are not.",
       "Gained early exposure to large-scale project coordination and trade sequencing.",
-      "As an Apprentice Level/ Card carrying Journeyman everyone was glad to share information -- the learning curve was steep",
+      "As an Apprentice Level / Card carrying Journeyman everyone was glad to share information -- the learning curve was steep",
     ],
   },
   {
