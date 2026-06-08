@@ -53,6 +53,7 @@ export const projects = [
   {
 title: "Tulsa Community College Final Assignment - Architectural Residential Duplex",
     github: "",
+    summary:"We were to duplicate the plans we were given EXACTLY. The point was to demonstrate our ability to use Revit.", 
     pdf: "/pdfs/knodeann-phase6.pdf",
     images: [
       {
@@ -73,10 +74,11 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
       },
       {
         src: "/images/knodeann/knodeann-page-5.jpg",
-        caption: "This is the details page.  All of these are drawing view, and reverted back to AutoCAD style drafting.",
+        caption: "This is the details page.  These were created in Drafting View.",
       },
     ],
     description: [
+      "The instructor was given a set of drawings by an enginering firm and we were to draw them EXACTLY AS DRAWN.  The intent of the assignment was demonstration of our ability to use Revit.",
       "A simple 2-story structure modeled in Autodesk Revit as a final project for Tulsa Community College. The project includes a full 3D model alongside detail views created in Revit's drafting mode — bridging traditional AutoCAD-style drafting with modern BIM workflows.",
     ],
   },
@@ -163,53 +165,18 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
+    name: "",
+    issuer: "",
+    date: "",
+    type: "",
+    position: "",
   },
   {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    name: "",
+    issuer: "",
+    date: "",
+    type: "",
+    position: "",
   },
 ];
 export const constructionProjects = [
