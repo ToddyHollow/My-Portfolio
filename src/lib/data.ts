@@ -90,68 +90,68 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
      
       {
         src: "/images/knodeann/image-2388.jpeg",
-        caption: "",
+        caption: "Book Cover",
       },
       {
         src: "/images/knodeann/FirstScreenshot.png",
         caption: "Screenshot",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0012.jpg",
+        src: "/images/knodeann/900_roof_options_SDC.jpg",
         caption: "The Design Option -- The atrium roof changed",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0001.jpg",
+        src: "/workspaces/My-Portfolio/images/knodeann/101_first_floor_plan_SDC.jpg.jpg",
         caption: "First floor plan view",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0002.jpg",
+        src: "/images/knodeann/102_second_floor_plan_SDC.jpg",
         caption: "Second floor plan view",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0003.jpg",
+        src: "/images/knodeann/103_third_floor_plan_SDC.jpg",
         caption: "Third floor plan view",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0004.jpg",
+        src: "/images/knodeann/111_ceiling_plan_first_SDC.jpg",
         caption: "First floor reflected ceiling",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0005.jpg",
+        src: "/images/knodeann/112_ceiling_plan_second_SDC.jpg",
         caption: "Second floor reflected ceiling",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0006.jpg",
+        src: "/images/knodeann/113_ceiling_plan_third.jpg",
         caption: "Third floor reflected ceiling",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0007.jpg",
+        src: "/images/knodeann/200_exterior_elevations.jpg",
         caption: "Exterior Elevations",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0008.jpg",
+        src: "/images/knodeann/400_wall_section.jpg",
         caption: "Wall Sections",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0009.jpg",
+        src: "/images/knodeann/500_interior_elevations.jpg",
         caption: "Interior Elevations",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0010.jpg",
+        src: "public/images/knodeann/600_details.jpg",
         caption: "Details",
       },
       {
-        src: "/images/knodeann/CommercialDesign_page-0011.jpg",
-        caption: "Schedules",
+        src: "",
+        caption: "",
       },
     ],
     pdf: "/pdfs/READYFORJPEG.pdf",
     description: [
-      "This set is to demonstrate that I can create in Revit.",
-      "This sheet set is roughly 90% of what the book covered. I did not do the fun rendering chapter and I am going to need more ceilings for my systems -- maybe --",
-      "The intent is to complete this commercial building from the book and then use it to create the MEP systems.",
-      "The PDF shows several differnt files from the project (no sheets) but cannot be displayed well in the browser. Please click the button to open a new window.",
-    ],
+      "The entire purpose of this is to host my MEP practice runs.",
+      "I have left floors without ceilings for exposed spiral runs, there will be a floor with a hard lid, and one with a grid system.",
+      "It is in no way perfect. It is like a first child, everything about it is amazing to me.",
+      "This sheet set is roughly 90% of what the book covered. I did not do the fun rendering and camera views, yet.",
+      ],
   },
   {
     title: "Project 3 - Coming Soon",

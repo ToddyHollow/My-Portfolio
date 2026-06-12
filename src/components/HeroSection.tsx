@@ -122,7 +122,7 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-            🏗️ My background is in commercial construction and HVAC — roughly 15 years of active work.  I have built HVAC units, installed ductwork, and drawn duct and some piping using AutoDESK programs. Real systems, real buildings, real consequences. Now I'm channeling that hands-on field experience into BIM and MEP modeling, including clash detection in Navisworks.</p>
+            🏗️ My background is in commercial construction and HVAC — roughly 15 years of active work.  I have built HVAC units, installed ductwork, and drawn duct and some piping using AutoDesk programs. Building systems intrigue me, lets get interested together.</p>
           </div>
         </MotionWrapper>
       </div>
