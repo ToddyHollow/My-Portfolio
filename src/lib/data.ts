@@ -101,7 +101,7 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
         caption: "The Design Option -- The atrium roof changed",
       },
       {
-        src: "/workspaces/My-Portfolio/images/knodeann/101_first_floor_plan_SDC.jpg.jpg",
+        src: "/images/knodeann/101_first_floor_plan_SDC.jpg",
         caption: "First floor plan view",
       },
       {
@@ -137,7 +137,7 @@ title: "Tulsa Community College Final Assignment - Architectural Residential Dup
         caption: "Interior Elevations",
       },
       {
-        src: "public/images/knodeann/600_details.jpg",
+        src: "/images/knodeann/600_details.jpg",
         caption: "Details",
       },
       {
